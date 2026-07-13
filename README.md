@@ -83,3 +83,7 @@ Run ERC and explain every remaining violation.
 - [OpenAI Skills Catalog](https://github.com/openai/skills)
 - [Codex Skill Creator](https://github.com/openai/codex/tree/main/codex-rs/skills/src/assets/samples/skill-creator)
 - [Agent Skills Open Standard](https://agentskills.io/)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
