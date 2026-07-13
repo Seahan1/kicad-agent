@@ -1,0 +1,7 @@
+interface:
+  display_name: "KiCad 原理图设计规范"
+  short_description: "规范 Codex 创建、连线与校验 KiCad 原理图流程"
+  default_prompt: "使用 $kicad-schematic-design 设计并校验一份 KiCad 原理图。"
+
+policy:
+  allow_implicit_invocation: true
