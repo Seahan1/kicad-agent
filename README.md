@@ -14,9 +14,9 @@ The command downloads the Skill from GitHub and installs it into the user-level 
 
 The `skills` CLI can also install the repository into a project-local agent directory when `-g` is omitted. The global command above is intended for repeated KiCad work across projects.
 
-## Before and After
+## Before and After: No Manual Edits
 
-The screenshots below show the change in schematic workflow before and after applying this Skill. They are representative examples rather than a controlled benchmark with fixed timing data.
+The screenshots below show the change in schematic workflow before and after applying this Skill, with no manual edits after generation. They are representative examples rather than a controlled benchmark with fixed timing data.
 
 <table>
   <tr>
@@ -36,6 +36,8 @@ The screenshots below show the change in schematic workflow before and after app
 | Review coverage | Visual inspection can miss pin-to-net, footprint, or ERC issues. | ERC, structured analysis, footprint checks, and rendered review provide separate evidence before handoff. |
 
 The improvement comes from front-loading circuit contracts and library checks, then validating each stage before adding more drawing content.
+
+Both runs used Codex 5.6 Sol High. No manual edits were made after generation.
 
 ## What It Does
 
