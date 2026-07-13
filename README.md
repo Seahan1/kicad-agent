@@ -18,16 +18,13 @@ The `skills` CLI can also install the repository into a project-local agent dire
 
 The screenshots below show the change in schematic workflow before and after applying this Skill, with no manual edits after generation. They are representative examples rather than a controlled benchmark with fixed timing data.
 
-<table>
-  <tr>
-    <th>Before using the Skill</th>
-    <th>After using the Skill</th>
-  </tr>
-  <tr>
-    <td><img src="docs/images/before.png" alt="KiCad schematic before using the Skill" width="100%" height="300" style="object-fit: contain;"></td>
-    <td><img src="docs/images/after.png" alt="KiCad schematic after using the Skill" width="100%" height="300" style="object-fit: contain;"></td>
-  </tr>
-</table>
+### Before using the Skill
+
+<p><img src="docs/images/before.png" alt="KiCad schematic before using the Skill" width="100%"></p>
+
+### After using the Skill
+
+<p><img src="docs/images/after.png" alt="KiCad schematic after using the Skill" width="100%"></p>
 
 | Dimension | Before using the Skill | After using the Skill |
 | --- | --- | --- |
