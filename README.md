@@ -14,6 +14,29 @@ The command downloads the Skill from GitHub and installs it into the user-level 
 
 The `skills` CLI can also install the repository into a project-local agent directory when `-g` is omitted. The global command above is intended for repeated KiCad work across projects.
 
+## Before and After
+
+The screenshots below show the change in schematic workflow before and after applying this Skill. They are representative examples rather than a controlled benchmark with fixed timing data.
+
+<table>
+  <tr>
+    <th>Before using the Skill</th>
+    <th>After using the Skill</th>
+  </tr>
+  <tr>
+    <td><img src="docs/images/before.png" alt="KiCad schematic before using the Skill"></td>
+    <td><img src="docs/images/after.png" alt="KiCad schematic after using the Skill"></td>
+  </tr>
+</table>
+
+| Dimension | Before using the Skill | After using the Skill |
+| --- | --- | --- |
+| Time to a reviewable schematic | Repeated manual drawing and late discovery of missing connections extend the path to review. | An endpoint ledger, staged checkpoints, and early library checks shorten the path to the first reviewable schematic. |
+| Repeated error work | Interface omissions, power-symbol mistakes, and connectivity corrections can trigger repeated redraw cycles. | Explicit interface rules, standard power semantics, and localized checkpoint corrections reduce repeated error work. |
+| Review coverage | Visual inspection can miss pin-to-net, footprint, or ERC issues. | ERC, structured analysis, footprint checks, and rendered review provide separate evidence before handoff. |
+
+The improvement comes from front-loading circuit contracts and library checks, then validating each stage before adding more drawing content.
+
 ## What It Does
 
 - Creates new KiCad schematics from stated requirements.
