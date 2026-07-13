@@ -24,8 +24,8 @@ The screenshots below show the change in schematic workflow before and after app
     <th>After using the Skill</th>
   </tr>
   <tr>
-    <td><img src="docs/images/before.png" alt="KiCad schematic before using the Skill"></td>
-    <td><img src="docs/images/after.png" alt="KiCad schematic after using the Skill"></td>
+    <td><img src="docs/images/before.png" alt="KiCad schematic before using the Skill" width="100%" height="300" style="object-fit: contain;"></td>
+    <td><img src="docs/images/after.png" alt="KiCad schematic after using the Skill" width="100%" height="300" style="object-fit: contain;"></td>
   </tr>
 </table>
 
@@ -37,7 +37,7 @@ The screenshots below show the change in schematic workflow before and after app
 
 The improvement comes from front-loading circuit contracts and library checks, then validating each stage before adding more drawing content.
 
-Both runs used Codex 5.6 Sol High. No manual edits were made after generation.
+Both runs used GPT-5.6 Sol in Codex with High reasoning effort. No manual edits were made after generation.
 
 ## What It Does
 
